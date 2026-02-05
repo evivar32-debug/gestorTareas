@@ -22,6 +22,7 @@ def eliminar_tarea(tareas):
         print("Tarea eliminada exitosamente.")
     else:
         print("Índice inválido.")
+    return
 
 def main():
     tareas = TAREAS_INICIALES
