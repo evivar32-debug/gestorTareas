@@ -1,5 +1,5 @@
 '''
-Programas relacionados al manejo de datos, permite guardar o leer datos en un archivo CSV en una ruta definida por la variable
+Programas relacionados al manejo de datos, permiten guardar o leer datos en un archivo CSV en una ruta definida por la variable
 ARCHIVO_CSV, se puede modificar la ruta si se quiere guardar los datos en otro directorio.
 '''
 import csv

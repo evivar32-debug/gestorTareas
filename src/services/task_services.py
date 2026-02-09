@@ -1,5 +1,5 @@
 '''
-Programas relacionados al manejo y gesión de tareas, permite mostrar, agregar, marcar como finalizada o eliminar tareas.
+Programas relacionados al manejo y gestión de tareas, permite mostrar, agregar, marcar como finalizada o eliminar tareas.
 '''
 
 from src.utils.get_time import obtener_fecha

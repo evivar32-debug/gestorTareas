@@ -10,13 +10,11 @@ TAREAS_INICIALES = [{"fecha": "02/01/2026 10:25:32", "descripcion": "Enviar corr
                      {"fecha": "02/01/2026 15:30:00", "descripcion": "Preparar presentación para el cliente", "finalizada": 0}]
 
 def main(): 
-    
     '''
-    Leemos primero las tareas guardadas si es que existen, en caso contrario se asignan las tareas iniciales para trabajar, esto
-    es meramente didactico, se puede saltar esta parte si se desea.
-    Se despliega un menu para que el usuario pueda gestionar tareas segun lo requiera y guardar los datos si se requiere. 
+    Leemos primero las tareas guardadas si es que existen, en caso contrario, se asignan las tareas iniciales para 
+    trabajar, esto es meramente didáctico, se puede saltar esta parte si se desea.
+    Se despliega un menú para que el usuario pueda gestionar tareas según lo requiera y guardar los datos si se requiere. 
     '''
-    
     tareas = leer_tareas()
     # Comentar las siguientes 3 lineas si no se desea asignar valores iniciales
     if not tareas:
